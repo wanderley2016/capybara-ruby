@@ -1,0 +1,10 @@
+#encoding: utf-8
+#language: pt
+
+Funcionalidade: Eu como usuário devo conseguiur criar uma conta no gmail.com
+
+Cenário: criar uma conta de email
+	Dado que estou na pagina de criação de conta no gmail
+	E preencho as informações da nova conta 
+	Quando toco no botão Next
+	Então novo email é criado
